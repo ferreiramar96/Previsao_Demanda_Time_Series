@@ -5,7 +5,15 @@
 </p>
 
 ## Previsão de Demanda - Vinhos (*Time Series Forecasting*)
-Nesse projeto utilizei os dados de uma seguradora de saúde, no qual nosso objetivo seria criar uma maquina preditora para prever qual seria o valor do seguro para uma pessoa, com base nos seguintes fatos coletado dos clientes: idade, sexo, IMC, quantidade de filhos, se é fumante ou não e em qual região mora. E a partir desses dados, fui capaz de criar um modelo de Machine Learning para resolver esse problema. Porém para este projeto utilizei uma técnica de Auto Machine Learning, o que é a mesma coisa do ML tradicional, a diferença é que ele é Low Code e capaz de trazer insights importantes em questão de minutos, comparar vários modelos, construir gráficos de avaliação, tuning de hyperparâmetros e vários testes, tudo isso de forma rápida e eficaz!
+Nesse projeto utilizei os dados de uma industria de vinhos, no qual nosso objetivo seria criar um modelo preditivo para prever as vendas, e com um belo storytelling ao longo de todo nosso projeto, com fatos sobre os vinhos e informações sobre o mundo dos négocios.
+
+Realizei uma análise completa rica em informações, tando de forma a análisar a qualidade de nossos dados, quanto em responder peguntas valiosas de negócios como: Quais os vinhos mais vendidos e compara-los com quais trazem mais receita, para dessa forma a empresa pensar em alguma campanha de marketing e direciona-la. Esta é apenas uma de muitas perguntas que respondi ao longo desde projeto. 
+
+Logo de cara assim que plotei um gráfico com os dados das vendas ao longo do tempo, percebi que estávamos lidando com uma *Série Temporal* pois havia tendência e sazonalidade, e para utilizarmos nossos algoritmos para fazer a previsão, é preciso que nossa Série Temporal seja estacionária e então realizei o teste ADF. Após o teste o resultado nos indica que nossa série não é estacionária, e então precisei fazer algumas transformações para torna-la estacionária, como: logaritma, subtração da média móvel e diferenciação.
+
+Agora com os dados corretos e a série temporal estacionária, comecei com nossos modelos de machine learning e os que utilizei foram: Pycaret, Holt's Linear Trend Model, Arima e Prophet. Após o treinamento dos modelos é a hora de avaliarmos, porém antes de avaliar precisei fazer a reversão dos dados da série temporal, pois os resultados de alguns algoritmos estavam em escalas diferente, e com isso não era possível avaliar de forma correta o algoritmo.
+
+Com tudo pronto, fui para a avaliação de todos os modelos e a métrica escolhida foi o *MAPE (mean absolute percentage error)*, e o algoritmo que obteve um melhor resultado com nossos dados de teste foi o XXXX com XXXX% de erro médio.
 
 A seguir, alguns pontos do projeto:
 * Análise exploratória para entender os dados
