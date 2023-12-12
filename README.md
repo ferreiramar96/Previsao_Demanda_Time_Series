@@ -9,16 +9,17 @@ Nesse projeto utilizei os dados de uma seguradora de saúde, no qual nosso objet
 
 A seguir, alguns pontos do projeto:
 * Análise exploratória para entender os dados
-* Algumas visualizações a partir de insights
-* Auto Machine Learning com PyCaret
-* Comparação de vários algoritmos de Machine Learning 
-* Tuning do Algoritmo
-* Modelo salvo em formato de Arquivo
+* Modelagem dos dados
+* Feature Engineering
+* Business Understanding
+* Transformações da Série Temporal para estacionária
+* Treinamento de vários algoritmos
+* Reversão das transformações na ST
 * Avaliação dos resultados e conclusão
 
-Ao longo de todo o projeto, cada célula de código está explicada para uma fácil compreensão, acompanhado de um belo storytelling. Vocês também encontrarão algumas análises estatísticas, boxplots, histogramas, matriz de correlação e toda a parte de pré-processamento dos dados ficaram por conta de nosso Auto Machine Learning.
+Ao longo de todo o projeto, cada célula de código está explicada para uma fácil compreensão, acompanhado de um belo storytelling. Vocês também encontrarão algumas análises estatísticas, histogramas, matriz de correlação e toda a parte de pré-processamento dos dados, desde as análises até a avaliação dos modelos.
 
-Neste projeto foi utilizado: Storytelling, Estatística, Auto Machine Learning(AutoML), Python e a Biblioteca PyCaret.
+Neste projeto foi utilizado: Storytelling, Estatística, Série Temporal, Python, Machine Learning e Modelagem de Dados e Matemática.
 
 
 [Link para o projeto completo](https://bit.ly/3PgcuSJ)
