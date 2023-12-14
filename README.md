@@ -13,7 +13,7 @@ Logo de cara assim que plotei um gráfico com os dados das vendas ao longo do te
 
 Agora com os dados corretos e a série temporal estacionária, comecei com nossos modelos de machine learning e os que utilizei foram: Pycaret, Holt's Linear Trend Model, Arima e Prophet. Após o treinamento dos modelos é a hora de avaliarmos, porém antes de avaliar precisei fazer a reversão dos dados da série temporal, pois os resultados de alguns algoritmos estavam em escalas diferente, e com isso não era possível avaliar de forma correta o algoritmo.
 
-Com tudo pronto, fui para a avaliação de todos os modelos e a métrica escolhida foi o *MAPE (mean absolute percentage error)*, e o algoritmo que obteve um melhor resultado com nossos dados de teste foi o XXXX com XXXX% de erro médio.
+Com tudo pronto, fui para a avaliação de todos os modelos e a métrica escolhida foi o *MAPE (mean absolute percentage error)*, e o algoritmo que obteve um melhor resultado com nossos dados de teste foi o ARIMA com 2.16% de erro médio.
 
 A seguir, alguns pontos do projeto:
 * Análise exploratória para entender os dados
